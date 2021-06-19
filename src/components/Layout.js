@@ -1,13 +1,14 @@
-import React from 'react';
-import Header from './Header';
+import React from "react"
+import Header from "./Header"
+import "../styles/global.scss"
 
 const Layout = (props) => {
   return (
     <div>
       <Header />
-      { props.children }
+      {props.children}
     </div>
-  );
+  )
 }
 
-export default Layout;
+export default Layout
