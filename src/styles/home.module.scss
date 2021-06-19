@@ -1,0 +1,16 @@
+.projectImage {
+  height: 200px;
+}
+
+.introBox {
+  width: 50%;
+  flex-direction: column;
+  padding: 1rem;
+  @media (max-width: var.$breakpoint-phone) {
+    width: 100%;
+  }
+}
+
+.introItems {
+  padding: 0.8rem;
+}

@@ -6,5 +6,16 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: ['gatsby-plugin-sass'],
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        implementation: require('sass'),
+        additionalData: `@use '_variables' as var;`
+      },
+      sassOptions: {
+        includePaths: [`${__dirname}/src/styles`]
+      }
+    }
+  ],
 }
