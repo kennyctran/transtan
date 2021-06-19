@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../components/Layout"
-export default function Home() {
+import style from "../styles/home.module.scss"
+
+const Home = () => {
   return (
     <>
       <Layout>
@@ -24,3 +26,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home
