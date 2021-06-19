@@ -1,8 +1,23 @@
-$base-font: 16px;
+.h1 {
+  font-size: var.$baseFont;
+}
 
 * {
-  font-size: $base-font;
+  font-size: var.$baseFont;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.mainBox {
+  height: 70vh;
+  width: 100vw;
+  @media (max-width: var.$breakpoint-phone) {
+    height: 100vh;
+  }
+}
+
+.col1of2 {
+  height: 100vh;
+  width: 49%;
 }
