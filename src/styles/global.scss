@@ -13,7 +13,7 @@
   height: 70vh;
   width: 100vw;
   @media (max-width: var.$breakpoint-phone) {
-    height: 100vh;
+    height: fit-content;
   }
 }
 

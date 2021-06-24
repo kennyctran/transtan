@@ -1,16 +1,24 @@
-.projectImage {
-  height: 200px;
-}
-
 .introBox {
   width: 50%;
-  flex-direction: column;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+
   @media (max-width: var.$breakpoint-phone) {
     width: 100%;
+    height: 100%;
   }
 }
 
 .introItems {
   padding: 0.8rem;
 }
+
+.projectsLayout {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+
