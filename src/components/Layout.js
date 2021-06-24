@@ -1,13 +1,15 @@
 import React from "react"
 import Header from "./Header"
+import Footer from "./Footer"
 import "../styles/global.scss"
 
 const Layout = (props) => {
   return (
-    <div>
+    <>
       <Header />
       {props.children}
-    </div>
+      <Footer />
+    </>
   )
 }
 
