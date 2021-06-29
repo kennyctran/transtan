@@ -1,3 +1,3 @@
 module.exports = {
-  GITHUB: 'github.com/Pipes36/QuestAPI'
+  GITHUB: "github.com/Pipes36/QuestAPI",
 }

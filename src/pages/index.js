@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import Project from "../components/Project"
+import Bio from "../components/Bio"
 import * as style from "../styles/home.module.scss"
 
 const Home = () => {
@@ -9,25 +10,7 @@ const Home = () => {
       <Layout>
         <main className="mainBox">
           <div className={style.introBox}>
-            <div>
-              <h2>
-                kenny is a software engineer in New York, NY
-              </h2>
-            </div>
-            <div>
-              <p className={style.introItems}>
-                some technology i’ve worked with: JavaScript React Redux Next.js
-                Material-UI SASS/SCSS jQuery Node Express.js MongoDB MySQL Mocha
-                Jest Enzyme SuperTest AWS Docker Heroku Vercel GitHub Actions
-              </p>
-            </div>
-            <div>
-              <p className={style.introItems}>
-                drop by my Github: github.com/kennyctran drop by my LinkedIn:
-                linkedin.com/in/kennyctran see my non-engineer things here:
-                kennyctran.com
-              </p>
-            </div>
+            <Bio />
           </div>
         </main>
         <section className={style.projectsLayout}>
