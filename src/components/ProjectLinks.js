@@ -9,4 +9,4 @@ const ProjectLinks = (props) => {
   )
 }
 
-export default ProjectLinks;
+export default ProjectLinks

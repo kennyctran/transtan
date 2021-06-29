@@ -8,14 +8,14 @@ module.exports = {
   /* Your site config here */
   plugins: [
     {
-      resolve: 'gatsby-plugin-sass',
+      resolve: "gatsby-plugin-sass",
       options: {
-        implementation: require('sass'),
-        additionalData: `@use '_variables' as var;`
+        implementation: require("sass"),
+        additionalData: `@use '_variables' as var;`,
       },
       sassOptions: {
-        includePaths: [`${__dirname}/src/styles`]
-      }
-    }
+        includePaths: [`${__dirname}/src/styles`],
+      },
+    },
   ],
 }
